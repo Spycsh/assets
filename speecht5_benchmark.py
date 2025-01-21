@@ -66,7 +66,7 @@ def main():
     benchmark = SpeechT5BM(ENDPOINT,
                           'librispeech',
                           DATASET_PATH)
-    benchmark.run_bm(num_requests=200)
+    benchmark.run_bm(num_requests=100)
 
 
 if __name__ == "__main__":
